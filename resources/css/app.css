@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: "Instrument Sans", ui-sans-serif, system-ui, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+}
+.card {
+    max-width: 1700px;
+}
+.card-body {
+    background: #fffbfd;
+}
+.form-label {
+    font-size: 10pt;
+    color: #ad9ea6;
+}
+.form-text {
+    font-size: 9pt;
+    color: #ad9ea6;
+}
+
+.btn.btn-sm.btn-simpan {
+    --bs-btn-color: #654f59;
+    --bs-btn-bg: #decdd2;
+    --bs-btn-border-color: #ffffff;
+    --bs-btn-hover-color: #ffffff;
+    --bs-btn-hover-bg: #c75d5d;
+    --bs-btn-hover-border-color: #ffffff;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #872d2d;
+    --bs-btn-active-bg: #79828f;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #6c4040;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
+.btn.btn-sm.btn-batal {
+    --bs-btn-color: #654f59;
+    --bs-btn-bg: #ffffff;
+    --bs-btn-border-color: #c6c6c6;
+    --bs-btn-hover-color: #ffffff;
+    --bs-btn-hover-bg: #bcbcbc;
+    --bs-btn-hover-border-color: #ffffff;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #872d2d;
+    --bs-btn-active-bg: #79828f;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #6c4040;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
